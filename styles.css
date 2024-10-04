@@ -1,0 +1,75 @@
+@font-face {
+    font-family: BrazilFont;
+    src: url(Brazil-Font.ttf);
+}
+
+
+
+header{
+    font-size: 35px;
+    text-align: center;
+    margin: 3rem 0px;
+}
+
+body{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6081da20-de2e-4d55-8cbe-39e4ba23301a/d7k5bp6-44165acc-40ab-4bba-964c-29f018d26214.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYwODFkYTIwLWRlMmUtNGQ1NS04Y2JlLTM5ZTRiYTIzMzAxYVwvZDdrNWJwNi00NDE2NWFjYy00MGFiLTRiYmEtOTY0Yy0yOWYwMThkMjYyMTQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.K6SpGC8ASfUSZtcQJLMLwKmtU1vtTxL9ibBErjFg1J8');
+    font-size: 30px;
+    font-family: BrazilFont;
+    padding: 2%;
+    background-size: cover;
+}
+
+.left-side {
+    float: left;
+    width: 15%;
+}
+
+.top-left{
+    width: 100%;
+}
+
+ .main {
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+
+.brazil{
+    width: auto;
+}
+
+.cities{
+width: 75%;
+height: 25%;
+}
+
+.right-side {
+    float: right;
+    width: 15%;
+}
+
+.special-title {
+    font-size: 35px;
+    background-color: blue;
+    color: #FFF;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.special-title1{
+    background-color: rgb(226, 226, 30);
+    color: #FFF;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 45px;
+    width: 600px;
+    margin-left: 200px;
+}
+
+.blog-post-blue{
+    background-color:green;
+    border-radius: 30px;
+    width: 400px;
+    font-size: 35px;
+    margin-left: 300px;
+}
