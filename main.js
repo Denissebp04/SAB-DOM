@@ -18,8 +18,35 @@ const randomFact = function() {
 };
 randomFact();
 
+
 let diversity = document.getElementById('todo');
 diversity.removeChild(diversity.children[4])
+
+
+
+let li = document.createElement('li');
+li.textContent = 'The Diversity'
+document.getElementById('Top-4').appendChild(li);
+
+
+
+const museums = document.getElementById('museums');
+const docFrag = document.createDocumentFragment();
+
+let musum1 = document.createElement('li')
+let museum2 = document.createElement('li')
+let museum3 = document.createElement('li')
+musum1.innerText = 'Museum of Art of Sao Paulo (MASP)'
+museum2.innerText = 'Pinacoteca do Estado de Sao Paulo'
+museum3.innerText = 'Art Museum of Belem (MABE)'
+
+docFrag.appendChild(musum1);
+docFrag.prepend(museum2);
+docFrag.prepend(museum3);
+
+museums.prepend(docFrag)
+
+
 
 
 
