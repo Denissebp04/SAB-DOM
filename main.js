@@ -18,13 +18,9 @@ const randomFact = function() {
 };
 randomFact();
 
+let diversity = document.getElementById('todo');
+diversity.removeChild(diversity.children[4])
 
-const removelastitem = function(){
-    const lastitem = document.selectElementById('top-4');
-    lastitem.removeChild(lastitem.lastElementChild);
-
-};
-removelastitem();
 
 
 }
