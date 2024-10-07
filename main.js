@@ -51,7 +51,7 @@ museums.prepend(docFrag)
 const fun = document.getElementById("brazil2025");
 fun.addEventListener('mouseover', window.onload = () =>{
     fun.classList.add("red")
-    fun.textContent = "Click here"
+    fun.textContent = "Click and Find Out More"
 })
 fun.addEventListener('mouseout', window.onload = () =>{
     fun.classList.remove('red')
