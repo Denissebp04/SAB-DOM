@@ -1,1 +1,2 @@
-# SAB-DOM
+# SBA Project
+This is an SBA project to test our understanding of the Document Object Model (DOM) in JavaScript. In this project I decided to use as my theme/topic Brazil since I have been wanting to go for a while and would like to go next time I have the chance to travel. For this project I used different DOM features such as selecting an element by its ID (getElementbyId), adding css attributes, and opening different windows through my webpage (BOM). After working on this project I feel more confident in my abilities using DOM and BOM (Browser Object Model) and more intrigue about all the other ways these different features can be used.

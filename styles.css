@@ -39,8 +39,8 @@ body{
 }
 
 .cities{
-width: 75%;
-height: 25%;
+width: 50%;
+height: 15%;
 }
 
 .right-side {
@@ -86,3 +86,22 @@ height: 25%;
     padding-right: 30px;
 }
 
+#fuimonos{
+    background-color: rgb(226, 226, 30);
+    float: right;
+    margin-right: 70px;
+    width: 100px;
+    height: 60px;
+    font-family: Brazilfont;
+    font-size: 20px;
+}
+
+#form{
+    text-align: center;
+}
+
+.flag{
+    margin-left: 250px;
+    width: 30%;
+    height: 20%;
+}

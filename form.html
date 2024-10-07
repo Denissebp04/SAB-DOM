@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" media="screen" title="no title">
+</head>
+<body>
+        <p style="font-size: 25px;">If interested please filled the form below, Thank you!</p>
+        <form id="form">
+            <input type="text" placeholder="Dates of interest:" required></br>
+            <input type="text" placeholder="Places of interest:" ></br>
+            <input type="text" placeholder="name:" required></br>
+            <input id = "email" type="email" placeholder="Email:" required></br></br>
+            <textarea placeholder="Message:"></textarea>
+            <span id="emailError" style="color: red;"></span>
+            <span id="Success" style="color: green; display: none;">submission successful!</span></br>
+            <button type="submit">Submit</button>
+        </form>
+
+    <img class= "flag" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDNpNXh0a250Zmp4MzY1dGJ3bnNuYncxdXZpNnMxMGdwdDh6c3ZkMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UO5elnTqo4vSg/giphy.gif">
+
+</body>
+</html>
+
+<script>
+    document.getElementById('form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    let input = document.getElementById('email');
+    let emailError = document.getElementById('emailError');
+    let Success = document.getElementById('Success');
+
+    if (!input.checkValidity()) {
+        event.preventDefault(); // Prevent form from submitting
+        emailError.textContent = 'Email is required.';
+        Success.style.display = 'none'; // Hide success message if visible
+    } else {
+        emailError.textContent = ''; // Clear error message
+        Success.textContent = 'Registration successful!';
+        Success.style.display = 'block'; // Show success message
+        input.value = ''; // Reset the username input
+    }
+});
+</script>

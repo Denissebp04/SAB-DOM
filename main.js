@@ -51,9 +51,11 @@ museums.prepend(docFrag)
 const fun = document.getElementById("brazil2025");
 fun.addEventListener('mouseover', window.onload = () =>{
     fun.classList.add("red")
+    fun.textContent = "Click here"
 })
 fun.addEventListener('mouseout', window.onload = () =>{
     fun.classList.remove('red')
+    fun.textContent = "Brazil 2025!"
 })
 
 const leftside = document.getElementById("Top-4");
@@ -91,10 +93,19 @@ function newWindow (){
     myWindow.focus();
 }
 
-// function closeWindow(){
-//     myWindow.close()
-// }
-
 document.getElementById('brazil2025').addEventListener("click", newWindow);
+
+
+let form;
+function validform(){
+    form = window.open(
+        "form.html",
+        "Nos fuimos ;)",
+        "width=800, height=400, resizable=yes, scrollbars=yes, location=yes"
+    );
+    form.focus()
+}
+
+document.getElementById('fuimonos').addEventListener("click", validform);
 
 }
