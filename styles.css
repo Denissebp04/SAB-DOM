@@ -66,10 +66,23 @@ height: 25%;
     margin-left: 200px;
 }
 
-.blog-post-blue{
+.blog-post-green{
     background-color:green;
     border-radius: 30px;
     width: 400px;
     font-size: 35px;
     margin-left: 300px;
 }
+
+.red{
+    background-color: red;
+    width: 500px;
+    margin-left: 475px;
+    border-radius: 30px;
+}
+
+.green{
+    background-color: green;
+    padding-right: 30px;
+}
+

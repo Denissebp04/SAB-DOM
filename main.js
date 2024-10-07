@@ -48,7 +48,53 @@ museums.prepend(docFrag)
 
 
 
+const fun = document.getElementById("brazil2025");
+fun.addEventListener('mouseover', window.onload = () =>{
+    fun.classList.add("red")
+})
+fun.addEventListener('mouseout', window.onload = () =>{
+    fun.classList.remove('red')
+})
+
+const leftside = document.getElementById("Top-4");
+leftside.addEventListener('mouseover', window.onload = () =>{
+    leftside.classList.add("green")
+})
+leftside.addEventListener('mouseout', window.onload = () =>{
+    leftside.classList.remove('green')
+})
+
+const rightside = document.getElementById("todo");
+rightside.addEventListener('mouseover', window.onload = () =>{
+    rightside.classList.add("green")
+})
+rightside.addEventListener('mouseout', window.onload = () =>{
+    rightside.classList.remove('green')
+})
+
+const rightbelow = document.getElementById("museums");
+rightbelow.addEventListener('mouseover', window.onload = () =>{
+    rightbelow.classList.add("green")
+})
+rightbelow.addEventListener('mouseout', window.onload = () =>{
+    rightbelow.classList.remove('green')
+})
 
 
+let myWindow;
+function newWindow (){
+    myWindow = window.open(
+        "https://www.tripadvisor.com/Tourism-g294280-Brazil-Vacations.html",
+        "Brazil",
+        "width=800, height=400, resizable=yes, scrollbars=yes, location=yes"
+    );
+    myWindow.focus();
 }
 
+// function closeWindow(){
+//     myWindow.close()
+// }
+
+document.getElementById('brazil2025').addEventListener("click", newWindow);
+
+}
